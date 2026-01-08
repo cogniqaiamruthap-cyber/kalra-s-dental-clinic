@@ -1,0 +1,28 @@
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    /* Force single column for all grids */
+    .services-grid, 
+    .features-grid, 
+    .testimonials-grid, 
+    .achievements-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Reduce card padding to show larger images */
+    .achievement-card, 
+    .service-card, 
+    .feature-item, 
+    .testimonial-card,
+    .hero-card {
+        padding: 1.5rem 1rem;
+    }
+
+    /* Ensure images fill the card width */
+    .achievement-card img {
+        width: 100%;
+        height: auto; /* Allow aspect ratio to vary if needed, or keep 300px */
+        max-height: 400px;
+    }
+}
