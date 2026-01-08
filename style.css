@@ -131,7 +131,7 @@ nav a:hover {
     position: relative;
     padding-top: 80px;
     padding-bottom: 40px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(8, 145, 178, 0.3)), url('implant-poster-1.png');
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(8, 145, 178, 0.3)), url('hero-bg-new.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1042,5 +1042,10 @@ footer {
     #contact,
     #faq {
         padding: 30px 0;
+    }
+
+    /* Hero Background Adjustment */
+    .hero {
+        background-position: 80% center;
     }
 }
